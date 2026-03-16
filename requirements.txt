@@ -1,0 +1,13 @@
+streamlit
+pandas
+scikit-learn
+numpy
+plotly
+joblib
+pyarrow
+imbalanced-learn
+lightgbm
+stattools
+statsmodels
+matplotlib
+seaborn

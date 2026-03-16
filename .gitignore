@@ -1,0 +1,29 @@
+# .gitignore
+
+# Grandes arquivos de dados
+*.ftr
+*.pkl
+!model_final.pkl
+previsao_de_renda_II.csv
+
+# Scripts temporários de correção/debug
+fix_*.py
+verify_*.py
+add_*.py
+update_*.py
+cleanup_*.py
+cell_list.py
+debug_scores.py
+patch_notebook*.py
+read_all_nbs.py
+run_nb_code.py
+summarize_nbs.py
+logs.log
+
+# Notebooks temporários ou extras não solicitados
+tmp_notebook.ipynb
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
